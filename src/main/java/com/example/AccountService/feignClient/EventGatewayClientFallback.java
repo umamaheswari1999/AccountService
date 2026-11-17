@@ -1,5 +1,6 @@
  package com.example.AccountService.feignClient;
 
+import com.example.AccountService.exception.EventGatewayUnavailableException;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

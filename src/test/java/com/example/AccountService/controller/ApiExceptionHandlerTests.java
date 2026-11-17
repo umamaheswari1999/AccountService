@@ -2,7 +2,7 @@ package com.example.AccountService.controller;
 
 import com.example.AccountService.dto.ApiErrorResponse;
 import com.example.AccountService.exception.ApiExceptionHandler;
-import com.example.AccountService.feignClient.EventGatewayUnavailableException;
+import com.example.AccountService.exception.EventGatewayUnavailableException;
 import io.github.resilience4j.bulkhead.Bulkhead;
 import io.github.resilience4j.bulkhead.BulkheadFullException;
 import io.github.resilience4j.circuitbreaker.CallNotPermittedException;

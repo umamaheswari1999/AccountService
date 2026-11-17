@@ -1,5 +1,6 @@
 package com.example.AccountService.feignClient;
 
+import com.example.AccountService.exception.EventGatewayUnavailableException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

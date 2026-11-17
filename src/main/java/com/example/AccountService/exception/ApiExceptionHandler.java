@@ -1,7 +1,6 @@
 package com.example.AccountService.exception;
 
 import com.example.AccountService.dto.ApiErrorResponse;
-import com.example.AccountService.feignClient.EventGatewayUnavailableException;
 import io.github.resilience4j.bulkhead.BulkheadFullException;
 import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import jakarta.validation.ConstraintViolationException;
